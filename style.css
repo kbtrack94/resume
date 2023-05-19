@@ -200,6 +200,26 @@ nav {
   font-size: 12px;
   letter-spacing: 2px;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.list li {
+  flex-basis: 50%; /* Set each list item to take 50% of the container's width */
+  padding: 10px;
+}
+
 /* Responsive styles */
 @media (max-width: 600px) {
     header {
