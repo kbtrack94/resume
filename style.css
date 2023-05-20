@@ -218,7 +218,7 @@ nav {
 
 .list li {
   flex-basis: 50%; /* Set each list item to take 50% of the container's width */
-  padding: 10px;
+  padding: 05px;
 }
 
 /* Responsive styles */
