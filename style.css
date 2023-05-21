@@ -172,4 +172,20 @@ main {
         font-size: 20px;
     }
 
-   
+    .container-lg {
+        grid-template-columns: 1fr;
+    }
+
+    .image-container {
+        height: 200px;
+    }
+
+    .image {
+        padding: 10px;
+    }
+}
+
+
+
+
+
