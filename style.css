@@ -12,9 +12,9 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: green;
+    background-color: lightgray;
 }
-
+/* Navigation Bar */
 nav {
     display: flex;
     justify-content: center;
@@ -28,7 +28,7 @@ nav {
 
 .items a {
     text-decoration: none;
-    color: red;
+    color: Darkgray;
     font-size: 1.2rem;
 }
 
@@ -66,7 +66,7 @@ main {
 
 .image-container {
     display: block;
-    height: 250px;
+    height: 100px;
     position: relative;
     overflow: hidden;
 }
@@ -87,7 +87,7 @@ main {
 }
 
 .image h3, .image p {
-    color: orange;
+    color: red;
     margin-bottom: 5px;
 }
 
@@ -207,8 +207,8 @@ main {
 .overlay-content a {
   display: inline-block;
   padding: 10px 20px;
-  background-color: yellow;
-  color: brown;
+  background-color: white;
+  color: orange;
   text-decoration: none;
   border-radius: 4px;
   font-weight: bold;
@@ -216,8 +216,8 @@ main {
 }
 
 .overlay-content a:hover {
-  background-color: purple;
-  color: pink;
+  background-color: white;
+  color: black;
 }
 
 /* Responsive styles */
