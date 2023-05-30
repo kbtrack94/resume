@@ -1,25 +1,31 @@
 /* Reset some default styles */
-body, h1, h2, h3, h4, p, ul, li {
+ h2, h3, h4, p, ul, li {
     margin: 0;
     padding: 0;
+    color: white;
+    background-color: none;
+}
+
+header, h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(116, 77, 77);
+    color: whitesmoke;
 }
 
 body {
     font-family: Times New Roman, sans-serif;
     line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: black;
 }
 
-header {
-    text-align: center;
-    padding: 10px;
-    background-color: lightgray;
-}
 /* Navigation Bar */
 nav {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     margin-bottom: 20px;
-    margin-right: 125px;
 }
 
 .items {
@@ -29,14 +35,14 @@ nav {
 
 .items a {
     text-decoration: none;
-    color: purple;
+    color: maroon;
     font-size: 1.6rem;
     font-weight: bold;
 
 }
 
 .items a.active {
-    color: goldenrod;
+    color: whitesmoke;
     font-weight: bold;
     font-style: italic;
 
@@ -47,8 +53,9 @@ nav {
     height: 250px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
+/* End Navigation Bar */
 
 h1, h2, h3 , h4 {
     margin-bottom: 0px;
@@ -172,7 +179,7 @@ main {
 .gallery-item img {
   width: 50%;
   height: auto;
-  display: block;
+  display: flex;
   transition: transform 0.3s ease;
 }
 
@@ -186,10 +193,9 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(212, 211, 211, 0.7);
   opacity: 0;
   transition: opacity 0.3s ease;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -227,7 +233,6 @@ main {
 .overlay-content a:hover {
   background-color: gray;
   color: white;
-  justify-content: right;
 }
 
 /* Responsive styles */
@@ -246,7 +251,7 @@ main {
     }
 
     .image-container {
-        height: 200px;
+        height: 100px;
     }
 
     .image {
