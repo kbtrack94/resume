@@ -8,9 +8,17 @@
 
 header, h1 {
     text-align: center;
-    padding: 10px;
-    background-color: rgb(116, 77, 77);
-    color: whitesmoke;
+    padding: 0px;
+    background-color: lightgray;
+    color: maroon;
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+    color: white; 
+    text-align: center;
+    font-size: 0.9rem;
 }
 
 body {
@@ -18,7 +26,8 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: rgb(88, 96, 104);
+    color: white;
 }
 
 /* Navigation Bar */
@@ -141,12 +150,12 @@ main {
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
+    gap: 0px;
 }
 
 .container-small {
     background-color: none;
-    padding: 20px;
+    padding: 10px;
 }
 
 .list {
