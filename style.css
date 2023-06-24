@@ -1,5 +1,5 @@
-/* Reset some default styles */
- h2, h3, h4, p, ul, li {
+/* General Styles */
+h2, h3, h4, p, ul, li {
     margin: 0;
     padding: 0;
     color: white;
@@ -10,7 +10,7 @@ header, h1 {
     text-align: center;
     padding: 0px;
     background-color: lightgray;
-    color: maroon;
+    color: rgb(201, 88, 27);
 }
 
 h5 {
@@ -44,7 +44,7 @@ nav {
 
 .items a {
     text-decoration: none;
-    color: maroon;
+    color: rgb(201, 88, 27);
     font-size: 1.6rem;
     font-weight: bold;
 
@@ -240,11 +240,30 @@ main {
 }
 
 .overlay-content a:hover {
-  background-color: gray;
+  background-color: white;
   color: white;
 }
+/* Project Page Styles */
+#projects h4 {
+    color: rgb(255, 253, 253);
+    font-size: 20px;
+  }
 
-/* Responsive styles */
+.projects {
+    background-color: gray;
+    background-image:url();
+  }
+
+.project_details {
+    color: yellow;
+  }
+
+  .project_details:hover {
+    color: rgb(201, 88, 27);
+  }
+
+
+/* All Pages Responsive styles */
 @media (max-width: 600px) {
     .profile-picture {
         width: 150px;
